@@ -1,0 +1,27 @@
+body{
+    background-image: url(band.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+.col{
+    border: 1px solid black;
+    text-align: center;
+    width: 50px;
+    height: 80px;
+    color: red;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
